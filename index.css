@@ -1,0 +1,219 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+button {
+    background-color: #026186;
+    color: white;
+	border: none;
+	padding: 12px 25px;
+}
+
+header {
+	width: 100%;
+	background-color: #026186;
+}
+
+header .menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+header .menu img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+
+.gridCon {
+	display: grid;
+	grid-template-columns: 22% 55% 20%;
+    gap: 20px;
+}
+
+.gridCon .grid {
+	padding: 20px;
+}
+
+.gridCon .grid div:not(.postPic) {
+	box-shadow: 2px 2px 6px gray;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+}
+
+.gridCon .grid .one {
+	text-align: center;
+}
+
+.gridCon .grid .one img {
+	width: 45%;
+	height: auto;
+	border-radius: 50px;
+}
+
+.gridCon .grid .one ul {
+	list-style-type: square;
+	padding: 10px 15px;
+	border-top: 1px solid #d8d8d8;
+	text-align: left;
+}
+
+.gridCon .grid .one ul li {
+	padding: 10px 0px;
+}
+
+.gridCon .grid .two {
+	font-size: 18px;
+	background-color: #026186;
+	color: white;
+	padding: 10px;
+}
+
+.gridCon .grid .two ul {
+	list-style-type: none;
+	background-color: white;
+	color: black;
+	padding: 10px;
+	font-size: 17px;
+	display: none;
+}
+
+
+.gridCon .grid .two span:hover ul{
+	display: block;
+}
+
+.gridCon .grid .three span {
+	display: inline-block;
+	background-color: #026186;
+	color: white;
+	padding: 8px;
+	margin: 5px;
+}
+
+.gridCon .grid .four {
+	position: relative;
+}
+
+.gridCon .grid .four .cancel {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	background: red;
+	color: white;
+	padding: 2px;
+}
+
+
+.gridCon .grid .post input {
+	display: block;
+	width: 94%;
+	background-color: lightgrey;
+	border: 1px solid #d8d8d8;
+	padding: 15px;
+	margin: 10px auto;
+	font-size: 17px;
+}
+
+.gridCon .grid .post span {
+	display: flex;
+	align-items: center;
+	position: relative;
+	border-bottom: 1px solid #d8d8d8;
+	padding-bottom: 15px;
+}
+
+.gridCon .grid .post span img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+}
+
+.gridCon .grid .post b {
+	margin-left: 10px;
+}
+
+.gridCon .grid .post em {
+	position: absolute;
+	right: 0;
+}
+
+.gridCon .grid .post .postPic {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.gridCon .grid .post .postPic img {
+	width: 48.5%;
+	height: auto;
+}
+
+.gridCon .grid .post button {
+	margin: 20px 5px;
+}
+
+.gridCon .grid .post .pic {
+	width: 100%;
+	height: auto;
+}
+
+.gridCon .grid .events {
+	text-align: center;
+}
+
+.gridCon .grid .events img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.gridCon .grid .events b {
+	font-size: 30px;
+}
+
+.gridCon .grid .events p {
+	font-size: 25px;
+}
+
+
+.gridCon .grid .request {
+	text-align: center;
+}
+
+.gridCon .grid .request img {
+	width: 100px;
+	height: 100px;
+}
+
+.gridCon .grid .request p {
+	font-size: 25px;
+}
+
+.gridCon .grid .request button {
+	padding: 10px 20px;
+	border-radius: 2px;
+}
+
+.gridCon .grid .request .yes {
+	background-color: green;
+}
+
+.gridCon .grid .request .no {
+	background-color: red;
+}
+
+.gridCon .grid .request button:hover {
+	background-color: #026186;
+}
+
+
+.gridCon .grid .ad, .gridCon .grid .box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+}
